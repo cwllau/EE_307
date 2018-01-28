@@ -7,6 +7,7 @@ LINE Normal -65 -95 -94 -95
 LINE Normal 49 -16 0 -16
 LINE Normal -32 -1 -32 17
 RECTANGLE Normal -65 -112 0 -1
+TEXT -11 -1 VLeft 2 Full_Adder
 WINDOW 0 24 18 Left 2
 PIN -32 -128 BOTTOM 8
 PINATTR PinName A
