@@ -1,0 +1,12 @@
+Circuit: * C:\Users\colle\OneDrive - California Polytechnic State University\EE 307\Nand_gate.asc
+
+WARNING: Node A is floating.
+WARNING: Node B is floating.
+
+.OP point found by inspection.
+Singular matrix:  Check node a
+   Iteration No. 1
+Fatal Error: Singular matrix:  check node a
+   Iteration No. 1
+
+This circuit has floating nodes.

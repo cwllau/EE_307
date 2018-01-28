@@ -1,0 +1,25 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -63 -16 -112 -16
+LINE Normal -62 -31 -62 -63
+LINE Normal -16 -32 -14 -114
+LINE Normal 48 -16 1 -16
+LINE Normal -62 16 -62 2
+RECTANGLE Normal 1 2 -64 -32
+TEXT -58 -17 Left 2 F.A.C.
+WINDOW 0 -32 25 Left 2
+PIN 48 -16 BOTTOM 8
+PINATTR PinName Carry
+PINATTR SpiceOrder 1
+PIN -112 -16 BOTTOM 8
+PINATTR PinName VDD
+PINATTR SpiceOrder 2
+PIN -64 -64 BOTTOM 8
+PINATTR PinName B
+PINATTR SpiceOrder 3
+PIN -64 16 TOP 8
+PINATTR PinName A
+PINATTR SpiceOrder 4
+PIN -16 -112 BOTTOM 8
+PINATTR PinName Cin
+PINATTR SpiceOrder 5

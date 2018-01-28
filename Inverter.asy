@@ -1,0 +1,17 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -32 -30 -32 -47
+LINE Normal 32 -16 0 -15
+LINE Normal -64 -16 -95 -16
+RECTANGLE Normal 0 0 -65 -30
+TEXT -66 -13 Left 2 inverter
+WINDOW 0 -32 -125 Left 2
+PIN -96 -16 BOTTOM 8
+PINATTR PinName Vin
+PINATTR SpiceOrder 1
+PIN -32 -48 BOTTOM 8
+PINATTR PinName VDD
+PINATTR SpiceOrder 2
+PIN 32 -16 BOTTOM 8
+PINATTR PinName Vout
+PINATTR SpiceOrder 3
