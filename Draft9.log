@@ -1,0 +1,11 @@
+Circuit: * C:\Users\colle\OneDrive - California Polytechnic State University\EE 307\Draft9.asc
+
+WARNING: Node N003 is floating.
+
+Direct Newton iteration for .op point succeeded.
+Singular matrix:  Check node n003
+   Iteration No. 1
+Fatal Error: Singular matrix:  check node n003
+   Iteration No. 1
+
+This circuit has floating nodes.

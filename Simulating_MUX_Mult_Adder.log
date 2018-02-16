@@ -1,4 +1,4 @@
-Circuit: * C:\Users\colle\OneDrive - California Polytechnic State University\EE 307\Draft2.asc
+Circuit: * C:\Users\colle\OneDrive - California Polytechnic State University\EE 307\Simulating_MUX_Mult_Adder.asc
 
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
@@ -1802,8 +1802,8 @@ Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
 
-Date: Sat Feb 03 02:10:14 2018
-Total elapsed time: 5.587 seconds.
+Date: Sat Feb 03 02:34:16 2018
+Total elapsed time: 5.356 seconds.
 
 tnom = 27
 temp = 27
@@ -1816,7 +1816,7 @@ rejected = 0
 matrix size = 1049
 fillins = 2630
 solver = Normal
-Thread vector: 1706.1/1269.0[8] 484.1/269.6[8] 145.6/119.0[3] 13.6/8.9[8]  2592/500
-Matrix Compiler1: 285.97 KB object code size  158.4/80.8/[38.3]
-Matrix Compiler2: 168.68 KB object code size  58.2/38.5/[20.2]
+Thread vector: 1589.6/1228.6[8] 440.7/261.4[8] 121.9/110.8[2] 13.4/9.1[6]  2592/500
+Matrix Compiler1: 285.97 KB object code size  154.3/75.4/[35.1]
+Matrix Compiler2: 168.68 KB object code size  58.2/48.2/[20.9]
 

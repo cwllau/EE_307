@@ -1,10 +1,5 @@
 Circuit: * C:\Users\colle\OneDrive - California Polytechnic State University\EE 307\RCA_fulladder_component.asc
 
-WARNING: Node S3 is floating.
-WARNING: Node S2 is floating.
-WARNING: Node S1 is floating.
-WARNING: Node S0 is floating.
-
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
@@ -389,8 +384,7 @@ Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
-Singular matrix:  Check node s2
-   Iteration No. 1
+Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -408,40 +402,25 @@ Gmin = 2.18725e-010
 Gmin = 2.34854e-011
 Gmin = 2.52173e-012
 Gmin = 2.70769e-013
-Singular matrix:  Check node s0
-   Iteration No. 2
 Gmin = 0
-Singular matrix:  Check node s0
-   Iteration No. 1
-Gmin stepping failed
+Gmin stepping succeeded in finding the operating point.
 
-Starting source stepping with srcstepmethod=0
-Singular matrix:  Check node s0
-   Iteration No. 1
-Singular matrix:  Check node s0
-   Iteration No. 2
-Could not converge to DC with sources off!
-Starting source stepping with srcstepmethod=1
-Singular matrix:  Check node s0
-   Iteration No. 1
-Could not converge to DC with sources off!
-Pseudo transient terminated at 100.111 s, solution accepted ready or not!
 
-Date: Mon Jan 29 16:14:22 2018
-Total elapsed time: 3.237 seconds.
+Date: Sat Feb 03 00:31:07 2018
+Total elapsed time: 1.050 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 7487
-traniter = 4147
-tranpoints = 1039
-accept = 1039
-rejected = 24
-matrix size = 228
-fillins = 600
+totiter = 2492
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 230
+fillins = 358
 solver = Normal
-Thread vector: 295.2/219.4[8] 94.5/49.9[8] 24.1/16.9[6] 2.2/3.4[1]  2592/500
-Matrix Compiler1: 59.45 KB object code size  20.6/11.0/[4.9]
-Matrix Compiler2: 36.67 KB object code size  9.3/8.2/[2.9]
+Thread vector: 297.5/219.8[8] 85.8/46.8[8] 24.2/15.7[8] 2.5/1.9[3]  2592/500
+Matrix Compiler1: 42.40 KB object code size  16.3/8.5/[3.6]
+Matrix Compiler2: 33.08 KB object code size  9.0/7.0/[2.4]
 
