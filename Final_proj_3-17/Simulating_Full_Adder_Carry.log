@@ -1,0 +1,55 @@
+Circuit: * C:\Users\colle\OneDrive - California Polytechnic State University\EE 307\Simulating_Full_Adder_Carry.asc
+
+Limiting rise time of source v4 to 0.00027
+Limiting fall time of source v4 to 0.00027
+Limiting rise time of source v3 to 0.00058
+Limiting fall time of source v3 to 0.00058
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v2.  Increasing period to 12
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Jan 28 17:29:49 2018
+Total elapsed time: 0.248 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 10961
+traniter = 10937
+tranpoints = 2773
+accept = 2274
+rejected = 499
+matrix size = 25
+fillins = 16
+solver = Normal
+Thread vector: 17.8/10.5[2] 5.9/2.5[2] 1.0/0.9[2] 0.2/0.6[1]  2592/500
+Matrix Compiler1: 2.36 KB object code size  0.5/0.3/[0.2]
+Matrix Compiler2: off  [0.2]/0.3/0.3
+

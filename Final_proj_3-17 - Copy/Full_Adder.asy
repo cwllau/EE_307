@@ -1,0 +1,29 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -33 -112 -33 -128
+LINE Normal 47 -81 0 -81
+LINE Normal -63 -30 -93 -30
+LINE Normal -65 -95 -94 -95
+LINE Normal 49 -16 0 -16
+LINE Normal -32 -1 -32 17
+RECTANGLE Normal -65 -112 0 -1
+TEXT -11 -1 VLeft 2 Full_Adder
+WINDOW 0 24 18 Left 2
+PIN -32 -128 BOTTOM 8
+PINATTR PinName Cin
+PINATTR SpiceOrder 1
+PIN -96 -96 BOTTOM 8
+PINATTR PinName B
+PINATTR SpiceOrder 2
+PIN -96 -32 BOTTOM 8
+PINATTR PinName A
+PINATTR SpiceOrder 3
+PIN -32 16 TOP 8
+PINATTR PinName VDD
+PINATTR SpiceOrder 4
+PIN 48 -16 BOTTOM 8
+PINATTR PinName Carry
+PINATTR SpiceOrder 5
+PIN 48 -80 BOTTOM 8
+PINATTR PinName Sum
+PINATTR SpiceOrder 6

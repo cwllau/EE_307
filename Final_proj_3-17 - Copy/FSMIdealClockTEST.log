@@ -1,0 +1,43 @@
+Circuit: * C:\Users\colle\OneDrive - California Polytechnic State University\EE 307\FinalFiles\FSMIdealClockTEST.asc
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Per .tran options, skipping operating point for transient analysis.
+Changing Tseed to 1.95312e-011
+Changing Tseed to 1.95312e-013
+Changing Tseed to 1.95312e-010
+Changing Tseed to 1.95312e-014
+Changing Tseed to 1.95312e-009
+Changing Tseed to 1.95312e-015
+Changing Tseed to 1.95312e-008
+Changing Tseed to 1.95312e-016
+Changing Tseed to 1.95312e-007
+Changing Tseed to 1.95312e-017
+Changing Tseed to 1.95312e-006
+Changing Tseed to 1.95313e-018
+Heightened Def Con from 0 to 1.125e-011
+
+Date: Thu Mar 08 16:11:17 2018
+Total elapsed time: 1.053 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 19516
+traniter = 19516
+tranpoints = 6602
+accept = 4966
+rejected = 1625
+matrix size = 83
+fillins = 175
+solver = Normal
+Thread vector: 79.4/20.1[8] 27.2/6.6[8] 8.2/4.5[8] 0.4/2.1[1]  2592/500
+Matrix Compiler1: 24.86 KB object code size  4.7/2.0/[0.7]
+Matrix Compiler2: 12.61 KB object code size  1.7/1.6/[0.5]
+

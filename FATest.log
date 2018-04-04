@@ -1,0 +1,26 @@
+Circuit: * C:\Users\colle\OneDrive - California Polytechnic State University\EE 307\FinalFiles\FATest.asc
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Per .tran options, skipping operating point for transient analysis.
+
+Date: Thu Mar 08 16:10:16 2018
+Total elapsed time: 0.279 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 10825
+traniter = 10825
+tranpoints = 3836
+accept = 3035
+rejected = 801
+matrix size = 36
+fillins = 4
+solver = Normal
+Thread vector: 29.2/12.9[4] 6.6/2.8[4] 2.2/1.2[4] 0.2/0.7[1]  2592/500
+Matrix Compiler1: 3.40 KB object code size  0.8/0.5/[0.1]
+Matrix Compiler2: 4.26 KB object code size  0.4/0.6/[0.3]
+

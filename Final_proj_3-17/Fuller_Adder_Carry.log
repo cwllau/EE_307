@@ -1,0 +1,37 @@
+Circuit: * C:\Users\colle\OneDrive - California Polytechnic State University\EE 307\Fuller_Adder_Carry.asc
+
+WARNING: Node CIN is floating.
+WARNING: Node B is floating.
+WARNING: Node A is floating.
+WARNING: Node X7:A_NOT is floating.
+WARNING: Node X7:B_NOT is floating.
+WARNING: Node X8:A_NOT is floating.
+WARNING: Node X8:B_NOT is floating.
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+.OP point found by inspection.
+Ignoring empty pin current: Ix(x7:a)
+Ignoring empty pin current: Ix(x7:b)
+Ignoring empty pin current: Ix(x8:a)
+Ignoring empty pin current: Ix(x8:b)
+Ignoring empty pin current: Ix(x7:a)
+Ignoring empty pin current: Ix(x7:b)
+Ignoring empty pin current: Ix(x8:a)
+Ignoring empty pin current: Ix(x8:b)
+Singular matrix:  Check node a
+   Iteration No. 1
+Fatal Error: Singular matrix:  check node a
+   Iteration No. 1
+
+This circuit has floating nodes.

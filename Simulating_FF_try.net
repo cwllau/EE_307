@@ -1,0 +1,54 @@
+* C:\Users\colle\OneDrive - California Polytechnic State University\EE 307\Simulating_FF_try.asc
+XX1 N001 N008 VDD N004 N007 flipflop
+V1 N008 0 PULSE(0 5 0 1n 1n 10u 20u 100)
+V2 VDD 0 5
+XX5 N001 N002 VDD invslow
+XX6 N002 N003 VDD invslow
+XX2 N004 VDD N005 inverter
+XX3 N005 VDD N006 inverter
+XX4 N006 VDD N003 inverter
+
+* block symbol definitions
+.subckt flipflop D CLK VDD Q Qbar
+XX1 N009 D VDD inv
+XX2 N005 CLK VDD invslow
+XX5 N004 Qbar VDD Q nand
+XX6 N006 Q VDD Qbar nand
+XX3 D CLK VDD N002 nand
+XX7 N003 N002 VDD inv
+XX4 CLK N009 VDD N007 nand
+XX9 N008 N007 VDD inv
+XX8 N003 N005 VDD N004 nand
+XX10 N005 N008 VDD N006 nand
+.ends flipflop
+
+.subckt invslow INV Vin VDD
+M1 INV Vin 0 0 W2018N W=0.5u L=10u
+M2 INV Vin VDD VDD W2018P W=0.5u L=30u
+.ends invslow
+
+.subckt inverter Vin VDD Vout
+M1 Vout Vin VDD VDD RIT4007P7
+M2 Vout Vin 0 0 RIT4007N7
+.inc "C:\Users\colle\OneDrive - California Polytechnic State University\EE 307\CD4007.mod"
+.ends inverter
+
+.subckt inv INV Vin VDD
+M1 INV Vin 0 0 NMOS
+M2 INV Vin VDD VDD PMOS
+.ends inv
+
+.subckt nand A B VDD NAND
+M1 NAND A N001 N001 W2018N W=1.65u L=1u
+M2 NAND A VDD VDD W2018P W=10u L=1u
+M3 N001 B 0 0 W2018N W=1.65u L=1u
+M4 NAND B VDD VDD W2018P W=10u L=1u
+.ends nand
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\colle\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 200u
+.inc "C:\Users\colle\OneDrive - California Polytechnic State University\EE 307\FinalFiles\CD4009.mod"
+.backanno
+.end
